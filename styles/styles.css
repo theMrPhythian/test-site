@@ -13,3 +13,11 @@ p {
     line-height: 2;
     letter-spacing: 1;
 }
+
+body {
+    width: 600px; /* forces the body to always be 600px */
+    margin: 0 auto; /* centers the body on the page */
+    padding: 0 20px 20px 20px; /* no padding on top, 20px on the right, bottom, and left */
+    border: 5px solid black; /* 5px-wide, solid-black border around body */
+  }
+
