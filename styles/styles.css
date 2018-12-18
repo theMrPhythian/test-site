@@ -6,6 +6,10 @@ html {
 h1 {
     font-size: 60px;
     text-align: center;
+    margin: 0;
+    padding: 20px 0;    
+    color: #00539F; /* This color makes the title look like a 90's poster */
+    text-shadow: 3px 3px 1px black; /* This adds to the 90's-ness */
 }
 
 p {
@@ -21,3 +25,7 @@ body {
     border: 5px solid black; /* 5px-wide, solid-black border around body */
   }
 
+  img {
+    display: block; /* allows img to have margin values */
+    margin: 0 auto; /* centers the image */
+  }
